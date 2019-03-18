@@ -1,0 +1,8 @@
+library(tidyverse)
+library(lubridate)
+library(lutz)
+library(suncalc)
+library(splines)
+
+data_path <- "~/Desktop/police-stops/tr137st9964_ca_bakersfield_2019_02_25.rds"
+stops <- read_rds(data_path)
