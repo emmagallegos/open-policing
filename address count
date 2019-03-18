@@ -1,0 +1,1 @@
+stops %>% group_by(location) %>% summarize(count = n())  %>%  arrange(desc(count))
